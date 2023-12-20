@@ -19,7 +19,8 @@ namespace Day10AssignmentWebServerControls
         }
 
         protected void BtnRegister_Click(object sender, EventArgs e)
-        {
+        {    
+            LblMsg.Visible=true;
             LblMsg.Text = "Product Registration Success!!!";
             LblMsg.Text +="<br/>Product Name: "+TxtPName.Text;
             LblMsg.Text +="<br/>Product Catogory: "+listProductCategory.Text;
